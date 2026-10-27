@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="css/forms.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heisenberg</title>
+</head>
+<body>
+    <h1>pagina de estudos</h1>
+    <form method="get" action="envio_dados.php">
+        <input type="text" name="nome" placeholder="digite seu nome"><br>
+        <input type="email" name="email" placeholder="digite seu email"><br>
+        <input type="submit" name="enviar" value="enviar">
+        <br><br>
+        <input type="button" value="me clica pfv" onclick="msg()">
+    </form>
+    <script>
+        function msg() {
+            alert("voce me clicou eba");
+        }
+    </script>
+        <br><br>
+        <hr><hr><hr>
+        <br><br>
+    <form>
+        <input type="checkbox" name="veiculo1" value="bicicreta">eu ter uma bicicreta <br>
+        <input type="checkbox" name="veiculo2" value="carrovrumvrum">eu ter um vrum vrum <br>
+        <input type="checkbox" name="veiculo3" value="motoca">eu ter um motor de duas rodas <br><br><br>
+        selecione cyka cor: <input type="color" name="favcor" value="#b00b69"> <br><br><br>
+        quando nasceu: <input type="date" name="nascer">
+        <br><br><br>
+        <input type="file" name="arquivos">
+        <br><br>
+        <input type="file" name="arquivos" multiple>
+        <br><br><br>
+        quantidade (entre 1 a 5): <input type="number" name="quantidade" min="1" max="5">
+        <br><br><br>
+        <p><b>qual tua idade?</b></p>
+        <input type="radio" name="idade" value="18_22"> 18 a 22 <br>
+        <input type="radio" name="idade" value="23_30"> 23 a 30 <br>
+        <input type="radio" name="idade" value="mais31"> acima de 31 <br>
+        <br><br><br>
+        defina seu nivel de satisfação: <br>
+        pouco satisfação <input type="range" name="satisfacao" min="0" max="10000000000000000000"> muito satisfeito
+    </form>
+    <br><br>
+    <hr><hr><hr>
+    <br><br>
+    <form>
+        <label for="email">digite seu email</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="pin">digite seu codigo</label>
+        <input type="text" id="pin" name="pin" maxlength="4"><br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit"><br><br>
+        pesquisar: <input type="search" name="q"><br><br>
+        telefone <input type="tel" name="usertel"><br><br>
+        link do teu site <input type="url" name="webpage"><br><br>
+        <textarea></textarea>
+        <textarea>area de texto inicial</textarea><br><br>
+        <hr><hr><hr>
+        <br><br>
+        <select name="lista" id="lista">
+            <option>selecione uma opção</option>
+            <option>macarrão</option>
+            <option>pizza</option>
+            <option>nhoque</option>
+            <option>canelone</option>
+        </select><br><br><br>
+        <fieldset>
+            <legend>formulario</legend>
+            <form>
+                <input type="text">
+            </form>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/roberto-chan.css">
+    <style>
+        /* CSS para alinhar lado a lado a foto */
+        .dados-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .dados-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="Formulario">
+        <h1>Formulário Tech Experience</h1>
+        <p class="subtitulo">Tecnologia --- Aprendizado --- Grandes ideias</p>
+        
+        <!-- parte dos dados pessoais -->
+        <div class="dados_pessoais">
+            <h2>Dados Pessoais:</h2>
+            <h5>Conte um pouco sobre você.</h5>
+
+            <!-- Container flex agrupando os inputs de um lado e a ul/imagem do outro -->
+            <div class="dados-container">
+                
+                <div class="campos-formulario">
+                    <div class="linha-formulario">
+                        <div class="campo-grupo">
+                            <label>Nome Completo</label><br>
+                            <input type="text" placeholder="Digite seu nome completo" style="height: 45px; width: 500px; border: 3px solid grey; border-radius: 7px;">
+                        </div>
+
+                        <div class="campo-grupo">
+                            <label>Idade</label><br>
+                            <input type="number" placeholder="Ex.: 18" style="height: 45px; width: 250px; border: 3px solid grey; border-radius: 7px;">
+                        </div>
+                    </div>
+
+                    <div class="linha-formulario">
+                        <div class="campo-grupo">
+                            <label>E-mail</label><br>
+                            <input type="email" placeholder="seuemail@exemplo.com" style="height: 45px; width: 500px; border: 3px solid grey; border-radius: 7px;">
+                        </div>
+
+                        <div class="campo-grupo">
+                            <label>Telefone</label><br>
+                            <input type="tel" placeholder="(00)00000-0000" style="height: 45px; width: 250px; border: 3px solid grey; border-radius: 7px;">
+                        </div>
+                    </div>
+
+                    <div class="linha-formulario">
+                        <div class="campo-grupo">
+                            <label>Cidade</label><br>
+                            <input type="text" placeholder="Digite sua cidade" style="height: 45px; width: 780px; border: 3px solid grey; border-radius: 7px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="linha-vertical"></div>
+
+                <ul>
+                    <li>
+                        <img src="image/ChatGPT Image Aug 24, 2026, 04_36_40 PM.png" style="width: 250px;">
+                        <img src="image/images.jpg" style="width: 250px;">
+                        <img src="image/bruno_aura.jpg" style="height: 105px; width: 350px;">
+                        <img src="image/image.png" style=" height: 350px; width: 200px;">
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- preferencias -->
+       <div class="preferencias">
+            <h2>Preferências:</h2>
+            <h5>Conte sobre seus interesses e conhecimentos.</h5>
+            
+            <div class="preferencias-container">
+                <!-- Bloco 1: Área de Interesse -->
+                <div class="campo-opcao">
+                    <label><strong>Área de Interesse</strong></label><br>
+                    <select style="height: 40px; width: 100%; border: 2px solid grey; border-radius: 5px;">
+                        <option>Selecione uma opção</option>
+                        <option>Desenvolvimento Web</option>
+                        <option>Desenvolvimento Mobile</option>
+                        <option>Inteligência Artificial</option>
+                        <option>Banco de Dados</option>
+                        <option>Segurança da Informação</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+
+                <!-- Bloco 2: Turnos -->
+                <div class="campo-opcao">
+                    <label><strong>Turnos Preferidos</strong></label><br>
+                    <label><input type="radio" name="turno"> Manhã</label><br>
+                    <label><input type="radio" name="turno"> Tarde</label><br>
+                    <label><input type="radio" name="turno"> Noite</label>
+                </div>
+
+                <!-- Bloco 3: Recursos -->
+                <div class="campo-opcao">
+                    <label><strong>Recursos que você já aprendeu</strong></label><br>
+                    <label><input type="checkbox"> Input</label><br>
+                    <label><input type="checkbox"> Select</label><br>
+                    <label><input type="checkbox"> Radio</label><br>
+                    <label><input type="checkbox"> Checkbox</label><br>
+                    <label><input type="checkbox"> Textarea</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- observações -->
+        <div class="observacao">
+            <h2>Observações:</h2>
+            <h5>Deixe aqui algum comentário, sugestão ou ideia.</h5>
+            <textarea cols="175" rows="7" placeholder="Escreva suas observações aqui..." style="resize: none; border-radius: 7px;"></textarea>
+        </div>
+
+        <p></p>
+        <p></p>
+        <!-- os butao -->
+        <div class="butts">
+            <button class="butt_enviar" type="submit">Enviar</button>
+            <button class="butt_reset" type="reset">Limpar</button>
+        </div>
+    </div>
+</body>
+</html>

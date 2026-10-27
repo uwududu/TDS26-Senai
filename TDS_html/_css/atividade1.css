@@ -1,0 +1,10 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link{
+    color:#b00b69;
+    text-decoration: none;
+}
+a:visited{
+    color: #b00b69;
+}

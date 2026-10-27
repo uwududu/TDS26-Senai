@@ -1,0 +1,55 @@
+body{
+    background-image: url(../_image/japao.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+h1, h2{
+    font-family: Comic Sans ms;
+    font-size: 48px;
+    color: lightcoral;
+    text-shadow: black 2px 4px;
+}
+#contato{
+    text-align: left;
+    font-size: 30px;
+    border: 10px solid lightyellow;
+    width: 50%;
+    margin: auto;
+}
+#table{
+    border: 10px solid lightyellow;
+    border-radius: 25px;
+}
+th{
+    border: 5px solid lightyellow;
+    background-color: maroon;
+    font-family: Comic Sans ms;
+    font-size: 20px;
+    color: black;
+}
+td{
+    border: solid lightyellow;
+    background-color: lightgrey;
+    font-family: Comic Sans ms;
+    font-size: 20px;
+    color: black;
+}
+#botao{
+    color: red;
+    text-align: right;
+    text-shadow: black 2px 2px;
+}
+hr{
+    border: 10px solid lightcoral;
+}
+footer{
+    font-family: Comic Sans ms;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}

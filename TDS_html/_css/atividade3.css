@@ -1,0 +1,36 @@
+*{
+     font-family: Comic Sans ms;
+}
+body{
+    background-color: #87CEEB;
+}
+h1{
+    color: #b00b69;
+}
+h2{
+    color: green;
+}
+ul li::marker{
+    color: #000;
+}
+hr{
+    border: none;
+    height: 3px;
+    background-color: black;
+}
+a:link{
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+div{
+    background-color: darkcyan;
+    width: 500px;
+    height: 200px;
+    border: 20px solid yellow;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}

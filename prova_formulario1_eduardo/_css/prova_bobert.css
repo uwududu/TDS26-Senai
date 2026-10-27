@@ -1,0 +1,39 @@
+*{
+    font-family: Comic Sans ms;
+}
+.exemplo3{
+    color: #280137;
+    border: 5px solid #280137;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+fieldset{
+    color: green;
+    border: 5px solid goldenrod;
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+h1{
+    color: #800020;
+}
+textarea{
+    resize: none;
+}
+.butt_pesquisa{
+    color: red;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: black;
+    height: 45px;
+    width: 200px;   
+    font-size: 17px;
+}
+.exemplo1{
+    background-color: rgba(175, 175, 226, 0.661);
+    height: 30px;
+}

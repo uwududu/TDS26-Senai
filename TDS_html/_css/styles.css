@@ -1,0 +1,21 @@
+*{
+    background-color: #b00b69;
+    font-family: Comic Sans ms;
+    font-style: italic;
+    font-weight: bold;
+}
+p{
+    font-size: 35px;
+}
+header{
+    background: rgb(36, 200, 250);
+    color: #b00b69;
+    font-size: 50px;
+    text-align: center;
+}
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}

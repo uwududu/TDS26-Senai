@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu DropDown</title>
+    <style>
+        *{
+            font-family: Comic Sans ms;
+        }
+        .dropbutt{
+            background-color: #4caf50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-cont{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-cont a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-cont a:hover{
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-cont{
+            display: block;
+        }
+        .dropdown:hover .dropbutt{
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+   <h2>Menúh</h2> 
+   <p>Mova o mouse ate o botao para abrir o menu dropdown</p>
+   <div class="dropdown">
+        <button class="dropbutt">Dropdown</button>
+        <div class="dropdown-cont">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+   </div>
+</body>
+</html>

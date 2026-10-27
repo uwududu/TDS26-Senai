@@ -1,0 +1,26 @@
+*{
+    background-color: #696969;
+    font-family: comic sans ms;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #b00b69;
+}
+nav{
+    text-align: center;
+}
+a:link{
+    color: #b00b69;
+}
+a:visited{
+    color: #b00b69;
+}
+div{
+    background-color: #280137;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Açaiajin</title>
+    <link rel="stylesheet" href="_css/styles.css">
+</head>
+<body>
+    <h1>Formulario SUPER<strong>AÇAI</strong>AJIN</h1>
+    <form method="get" action="confirma.html">
+        <fieldset>
+            <legend>
+                Dados Pessoais:
+            </legend>
+            <!-- bobert prefere usar a tag p doq o br, segundo ele o p da um pulo de linha um pouco maior -->
+            <label>Nome: <p></p> <input type="text" required> </label>
+            <p></p>
+            <label>Idade: <p></p> <input type="number" required></label>
+            <p></p>
+            <label>Telefone: <p></p> <input type="tel" required></label>
+            <p></p>
+            <label>Endereço: <p></p> <input type="text" required></label>
+            <p></p>
+            <label>Planeta de origem: 
+                <br>
+                <br>
+                <select>
+                    <option>Planeta Terra</option>
+                    <option>Planeta Namek</option>
+                    <option>Planeta Vegeta</option>
+                    <option>Outros</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Dados Extras:
+            </legend>
+            <label>Raça do Universo 7 preferida:
+                <select>
+                    <option>Terráqueo</option>
+                    <option>Sayajin</option>
+                    <option>Namekuseijin</option>
+                    <option>Android</option>
+                    <option>Outros</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>Trabalho:
+                <input type="radio" name="cargo" value="1" checked>Autônomo
+                <input type="radio" name="cargo" value="2">Empregado CLT
+                <input type="radio" name="cargo" value="3">Empresário
+                <input type="radio" name="cargo" value="4">Tipo Goku
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Seu açai é perfeito de que jeito?
+            </legend>
+            <input type="checkbox">Puro
+            <input type="checkbox">Com Banana
+            <input type="checkbox">Com Murango
+            <input type="checkbox">Com Granola
+            <input type="checkbox">Tem gosto de terra
+        </fieldset>
+        <fieldset>
+            <legend>
+                Qual o tamanho preferido?
+            </legend>
+            <input type="radio" name="tamanho" value="1" checked>500ml
+            <input type="radio" name="tamanho" value="2">300ml
+            <input type="radio" name="tamanho" value="3">100ml
+            <input type="radio" name="tamanho" value="4">Casquinha
+            <input type="radio" name="tamanho" value="5">Qual parte do gosto de terra você não entendeu?
+        </fieldset>
+        <fieldset>
+            Observações: <br>
+            <textarea cols="195" rows="10" placeholder="Escreva suas observaçõoes... Eu não gosto de açai porque..."></textarea>
+        </fieldset>
+        <br>
+        <div>
+            <input class="butt" type="submit" value="ENVIAR">
+            <input class="butt" type="reset" value="LIMPAR">
+        </div>
+    </form>
+</body>
+</html>
