@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedido</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <form method="POST" action="gravar_pedido.php">
+            <br>
+            <h1>Cadastro de Pedidos</h1>
+            <h3>Número do Pedido</h3>
+            <input type="text" class="cad" name="numP">
+            <h3>Data do Pedido</h3>
+            <input type="date" class="cad" name="dataP">
+            <h3>Tabela do Pedido</h3>
+            <input type="text" class="cad" name="tabP">
+            <h3>Nome do Cliente</h3>
+            <input type="text" class="cad" name="nomeC">
+            <h3>Endereço</h3>
+            <input type="text" class="cad" name="endereco">
+            <h3>CEP</h3>
+            <input type="number" class="cad" name="cep">
+            <h3>Cidade</h3>
+            <input type="text" class="cad" name="cidade">
+            <h3>Estado</h3>
+            <input type="text" class="cad" name="estado">
+            <h3>Telefone</h3>
+            <input type="tel" class="cad" name="tel">
+            <h3>Data de Entrega</h3>
+            <input type="date" class="cad" name="dataE">
+            <br><br>
+            <input type="submit" value="Cadastrar" class="cadastro">
+        </form>
+        <br>
+        <a href="pedido.txt">
+            <button class="cadastro">Pedidos Realizados</button>
+        </a>
+    </div>
+</body>
+</html>

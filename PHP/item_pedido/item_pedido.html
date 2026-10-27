@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedido</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <form method="POST" action="gravar_pedido2.php">
+            <br>
+            <h1>Cadastro de Pedidos</h1>
+            <h3>Número do Pedido</h3>
+            <input type="text" class="cad" name="numP">
+            <h3>Codigo do Pedido</h3>
+            <input type="text" class="cad" name="codP">
+            <h3>Quantidade</h3>
+            <input type="text" class="cad" name="quant">
+            <h3>Valor Unitario</h3>
+            <input type="text" class="cad" name="valor">
+            <br><br>
+            <input type="submit" value="Cadastrar" class="cadastro">
+        </form>
+        <br>
+        <a href="pedido.html">
+            <button  class="cadastro">Pedido</button>
+        </a>
+        <br><br>
+        <a href="itens_pedido.txt">
+            <button  class="cadastro">Pedidos Cadastrados</button>
+        </a>
+    </div>
+</body>
+</html>

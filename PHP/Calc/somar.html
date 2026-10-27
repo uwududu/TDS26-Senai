@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="css/estilos.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <form method="POST" action="soma.php">
+        <p style="font-weight: bold;">Valor 1: </p>
+        <input type="decimal" name="N1A">
+        <br>
+        <p style="font-weight: bold;">Valor 2:</p>
+        <input type="decimal" name="N2A">
+        <br>
+        <p style="font-weight: bold;">Operação: </p>
+        <select name="oper">
+            <option value="soma">Somar</option>
+            <option value="sub">Subtração</option>
+            <option value="mult">Multiplicação</option>
+            <option value="div">Divisão</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Calcular">
+        <br></br>
+    </form>
+</body>
+</html>

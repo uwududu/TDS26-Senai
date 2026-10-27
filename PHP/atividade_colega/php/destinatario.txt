@@ -1,0 +1,2 @@
+22/10/2026 17:16:16 | Nome do Cliente: kleber | CPF/CNPJ: 12345678901 | Rua do Cliente.: Rua dos Kleber | Bairro do Cliente: Bairro do Kleber | Cidade: Kleber City | Estado do Cliente:  | País do Cliente: Saint Catarina | Telefone: 11 40028922 | Email: kleber@gmail.com
+22/10/2026 17:18:14 | Nome do Cliente: kleber | CPF/CNPJ: 12345678901 | Rua do Cliente.: Rua dos Kleber | Bairro do Cliente: Bairro do Kleber | Cidade: Kleber City | Estado do Cliente:  | País do Cliente: Saint Catarina | Telefone: 11 40028922 | Email: kleber@gmail.com

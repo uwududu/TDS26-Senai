@@ -1,0 +1,3 @@
+20/10/2026 19:57:04 | Nome Cliente:  | CPF: 235346237 | Endereço: Vladmir's Street 696 | Cod. Nota Fiscal: 2387 | Valor NF.: 654 | Quantidade: 12 | Valor Total: 7848
+20/10/2026 20:07:49 | Nome Cliente:  | CPF: 12345678901 | Endereço: Gay Street 69 | Cod. Nota Fiscal: 25346457 | Valor NF.: 34567 | Quantidade: 50 | Valor Total: 1728350
+20/10/2026 20:10:29 | Nome Cliente:  | CPF: 2345678 | Endereço: sweafdggh | Cod. Nota Fiscal: 324567 | Valor NF.: 2345678 | Quantidade: 3456 | Valor Total: 8106663168

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <form method="POST" action="form.php">
+            <br>
+            <h1>Cadastro de Pessoas</h1>
+            <h3>Nome Completo</h3>
+            <input type="text" class="cad" name="nome">
+            <h3>Email</h3>
+            <input type="email" class="cad" name="email">
+            <h3>Telefone</h3>
+            <input type="tel" class="cad" name="tel">
+            <h3>Data de Nascimento</h3>
+            <input type="date" class="cad" name="data">
+            <h3>CPF</h3>
+            <input type="number" class="cad" name="cpf">
+            <h3>Endereço</h3>
+            <input type="text" class="cad" name="endereco">
+            <h3>Cidade</h3>
+            <input type="text" class="cad" name="cidade">
+            <h3>Estado</h3>
+            <select name="estados" class="selecionar"  name="estado">
+                <option>selecione...</option>
+                <option>Rio Grande do Sul</option>
+                <option>Paraná</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+            </select>
+            <h3>Portador de deficiência</h3>
+            Sim <input type="radio" name="deficiencia" value="Sim"><br>
+            Não <input type="radio" name="deficiencia" value="Não"><br>
+            <h3>Escolaridade</h3>
+            <select name="escolaridade" class="selecionar"  name="escola">
+                <option>selecione...</option>
+                <option>Ensino Fundamental Incompleto</option>
+                <option>Ensino Fundamental Completo</option>
+                <option>Ensino Médio Incompleto</option>
+                <option>Ensino Médio Completo</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Cadastrar" class="cadastro">
+        </form>
+    </div>
+</body>
+</html>

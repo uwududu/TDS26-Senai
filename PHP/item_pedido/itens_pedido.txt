@@ -1,0 +1,1 @@
+13/10/2026 21:19:37 | Num. Pedido 6 | Cod. Pedido 235 | Quant. 50 | Valor Unit. 1000 | Total 50000
