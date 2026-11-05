@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <form method="post" action="php/tela4.php">
+            <h1>Sistema de Multa</h1>
+            <h3>Nome do Motorista</h3>
+            <input type="text" class="cad" name="nome">
+            <h3>Possui CNH?</h3>
+            <input type="radio">Sim
+            <input type="radio">Não
+            <h3>Placa do Veículo</h3>
+            <input type="text" class="cad" name="placa">
+            <h3>Motivo da Multa</h3>
+            <select name="multa" class="cad">
+                <option>Excesso de Velocidade</option>
+                <option>Sem Cinto de Segurança</option>
+                <option>Modificação sem mudança no documento</option>
+                <option>Pneu careca</option>
+                <option>Usando celular enquanto dirigi</option>
+            </select>
+            <h3>Gravidade da Multa</h3>
+            <select name="gravidade" class="cad">
+                <option>Infração Leve: 3 Pontos + R$88,38</option>
+                <option>Infração Media: 4 Pontos + R$130,16</option>
+                <option>Infração Grave: 5 Pontos + R$195,23</option>
+                <option>Infração Gravíssima: 7 Pontos + R$293,47</option>
+            </select>
+            <h3>Valor da Multa</h3>
+            <input type="decimal" class="cad" name="valor" placeholder="Ex.: Infração Leve: R$88.38">
+            <br><br>
+            <input type="submit" value="Gerar Multa" class="cadastro">
+            <br><br>
+        </form>
+    </div>
+</body>
+</html>

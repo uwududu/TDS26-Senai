@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <form method="POST" action="php/tela3.php">
+            <h1>Modificação do Veículo</h1>
+            <h3>Modelo</h3>
+            <input type="text" class="cad" name="modelo">
+            <h3>Turbina maior?</h3>
+            <input type="radio" name="turbo" value="sim">Sim
+            <input type="radio" name="turbo" value="nao">Não
+            <h3>Remap?</h3>
+            <input type="radio" name="remap" value="sim">Sim
+            <input type="radio" name="remap" value="nao">Não
+            <h3>Downpipe + escapamento?</h3>
+            <input type="radio" name="downpipe" value="sim">Sim
+            <input type="radio" name="downpipe" value="nao">Não
+            <h3>Ajuste da altura</h3>
+            <input type="radio" name="altura" value="sim">Sim
+            <input type="radio" name="altura" value="nao">Não
+            <h3>Somzão brabo?</h3>
+            <input type="radio" name="som" value="sim">Sim
+            <input type="radio" name="som" value="nao">Nao
+            <br><br>
+            <input type="submit" value="Confirmar Modificações" class="cadastro" >
+        </form>
+    </div>
+</body>
+</html>
