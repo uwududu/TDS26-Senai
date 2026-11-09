@@ -1,0 +1,4 @@
+05/11/2026 15:08:31 | Modelo: Porsche 911 992 GT3 | Cor: #ffffff | Pagamento PIX | Nome do Cliente: Vladmir Valdisney | Telefone: 11 40028922 | CPF/CNPJ: 12345678901 | Rua do Cliente: Rua dos Kleber | Bairro do Cliente: Bairro do Rogerio | Complemento: n°69
+05/11/2026 15:08:46 | Marca do veículo: Porsche 911 GT3 | Ano do veículo: 2023-10-23 | Pais de origem alemanha | Motor do veículo: motor boxter 4.3 | Cor do veículo: #ffffff | Placa do veículo: b00b69
+05/11/2026 15:09:00 | Modelo do Carro: Porsche 911 GT3 | Turbina maior: nao | Remap: sim | Downpipe + escapamento: sim | Ajuste de altura: nao | Som novo:nao
+05/11/2026 15:09:10 | Nome do motorista: Vladmir Valdisney | Placa do veículo: b00b69 | Motivo da multa: Excesso de Velocidade | Gravidade da multa: Infração Leve: 3 Pontos + R$88,38 | Valor da multa: 88.38

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <form method="POST" action="php/tela1.php">
+            <h1>Venda de Veículo</h1>
+            <h3>Modelo</h3>
+            <select name="modelo" class="cad">
+                <option>Escolha um dos modelos...</option>
+                <option>Porsche 911 992 GT3</option>
+                <option>BMW G99 M5 Touring</option>
+                <option>Nissan Skyline GTR R34</option>
+                <option>BMW X6 M Competition</option>
+                <option>Mitsubishi Lancer Evolution V</option>
+                <option>Audi RS6</option>
+            </select>
+            <h3>Cor do Veículo</h3>
+            <input type="color" class="cad" name="cor">
+            <h3>Tipo de Pagamento</h3>
+            <select name="pagamento" class="cad">
+                <option>Escolha um metodo de pagamento...</option>
+                <option>PIX</option>
+                <option>Financiamento</option>
+                <option>Cartão de Debito</option>
+                <option>Cartão de Credito</option>
+                <option>Consorcio</option>
+                <!-- nunca tinha ouvido falar desse TED, eu tive que pesquisar os jeitos que se pode comprar um carro -->
+                <option>TED (Transferencia Eletronica Disponivel)</option>
+            </select>
+            <h3>Nome do Cliente</h3>
+            <input type="text" class="cad" name="nm_cliente">
+            <h3>Telefone do Cliente</h3>
+            <input type="tel" class="cad" name="tel">
+            <h3>CPF/CNPJ do Cliente</h3>
+            <input type="number" min="0" class="cad" name="CPF_CNPJ">
+            <h3>Rua</h3>
+            <input type="text" class="cad" name="rua">
+            <h3>Bairro</h3>
+            <input type="text" class="cad" name="bairro">
+            <h3>Complemento</h3>
+            <input type="text" class="cad" name="complemento" placeholder="Apt.: 51">
+            <br><br>
+            <input type="submit" value="Registrar venda" class="cadastro" >
+        </form>
+    </div>
+</body>
+</html>

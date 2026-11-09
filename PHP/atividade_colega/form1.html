@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div  style="display: flex; justify-content: center; margin-bottom: 20px;" >
+        <img src="image/Correios_(1990).png" width="400px">
+    </div>
+    <div class="formulario">
+        <form method="POST" action="php/form1.php">
+            <br>
+            <h1>Remetente</h1>
+            <h3>Nome Completo</h3>
+            <input type="text" class="cad" name="nome">
+            <h3>CPF/CNPJ</h3>
+            <input type="number" class="cad" name="CPF_CNPJ">
+            <h3>CEP</h3>
+            <input type="number" class="cad" name="cep">
+            <h3>Rua</h3>
+            <input type="text" class="cad" name="rua">
+            <h3>Bairro</h3>
+            <input type="text" class="cad" name="bairro">
+            <h3>Cidade</h3>
+            <input type="text" class="cad" name="cidade">
+            <h3>Estado</h3>
+            <select name="estados" class="selecionar"  name="estado">
+                <option>selecione...</option>
+                <option>Rio Grande do Sul</option>
+                <option>Paraná</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+            </select>
+            <h3>País</h3>
+            <input type="text" class="cad" name="pais">
+            <h3>Telefone</h3>
+            <input type="tel" class="cad" name="tel">
+            <h3>Email</h3>
+            <input type="email" class="cad" name="email">
+            <h3>Declaração do Objeto a ser enviado</h3>
+            <input type="text" class="cad" name="objeto">
+            <br><br>
+            <input type="submit" value="Cadastrar" class="cadastro">
+            <br><br>
+            <input type="reset" value="Limpar Formulario" class="cadastro">
+        </form>
+    </div>
+</body>
+</html>
+
+

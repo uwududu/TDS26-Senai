@@ -1,0 +1,43 @@
+h1 {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+h3 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 3px; 
+    font-size: 14px;
+}
+.cad {
+    width: 91%;
+    height: 30px;
+}
+.selecionar {
+    width: 92%;
+    height: 30px;
+}
+.cadastro {
+    background-color: rgb(30, 106, 206);
+    color: white;
+    height: 35px;
+    width: 90%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+body{
+    background-color: rgba(249, 244, 93, 0.849);
+}
+.formulario {
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}

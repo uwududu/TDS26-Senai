@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedido</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <form method="POST" action="php/cadastro_nf.php">
+            <br>
+            <h1>Cadastro da Nota Fiscal</h1>
+            <h3>Número da Nota Fiscal</h3>
+            <input type="number" class="cad" name="numNF">
+            <h3>Natureza da Operação</h3>
+            <input type="text" class="cad" name="NO">
+            <h3>CNPJ/CPF</h3>
+            <input type="number" class="cad" name="CNPJ_CPF">
+            <h3>Descrição do Serviço/Produto</h3>
+            <input type="text" class="cad" name="nmSP">
+            <h3>Endereço do Destinatário/Remetente</h3>
+            <input type="text" class="cad" name="endereco">
+            <h3>Bairro</h3>
+            <input type="text" class="cad" name="bairro">
+            <h3>CEP</h3>
+            <input type="number" class="cad" name="CEP">
+            <h3>Auxilio da NF</h3>
+            Entrada <input type="radio" name="auxilio" value="Sim"><br>
+            Saida <input type="radio" name="auxilio" value="Não"><br>
+            <h3>Data da Emissão</h3>
+            <input type="date" name="cad" name="data_emissao">
+            <br><br>
+            <input type="submit" value="Cadastrar NF" class="cadastro">
+        </form>
+    </div>
+</body>
+</html>

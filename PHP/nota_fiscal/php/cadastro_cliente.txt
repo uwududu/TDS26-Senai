@@ -1,0 +1,2 @@
+20/10/2026 19:58:06 | Nome do Cliente: Vladmir | CPF: 345346 | Telefone.: 40028922 | Endereço: Vladmir's Street 696 | Unidade Federativa: St. Petersburg
+20/10/2026 20:09:42 | Nome do Cliente: Vladmir | CPF: 1234567 | Telefone.: 40028922 | Endereço: Vladmir's Street 696 | Unidade Federativa: St. Petersburg

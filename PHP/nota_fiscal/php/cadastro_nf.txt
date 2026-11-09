@@ -1,0 +1,2 @@
+20/10/2026 20:07:13 | Num. NF: 32456786 | CNPJ: 12345678901 | Nome do Serviço/Prod..: Compra de varias melancias para fechar a porta da casa do gabriel | endereco: Gay Street 69 | Bairro: Gay Shit | CEP: 1234567 | Tipo de NF: Não | Data da Emissao: 
+20/10/2026 20:10:10 | Num. NF: 9876543 | CNPJ: 234567 | Nome do Serviço/Prod..: sdfghk | endereco: wsdzfxgh | Bairro: fdgf | CEP: 324567 | Tipo de NF: Sim | Data da Emissao: 
