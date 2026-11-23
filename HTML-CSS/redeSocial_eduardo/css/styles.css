@@ -25,3 +25,24 @@ body{
     margin-bottom: 20px;
     margin-left: 15px;
 }
+.banner{
+    margin-left: 21%;
+}
+.banner img{
+    height: 450px;
+    width: 100%;
+}
+.banner p{
+    font-size: 35px;
+}
+.content-Footer footer{
+    height: 50px;
+    margin-left: 21%;
+    background: linear-gradient(to top right, #3b82f6, #9333ea);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-top: 260px;
+}
