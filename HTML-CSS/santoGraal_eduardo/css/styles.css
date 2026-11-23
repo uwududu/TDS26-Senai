@@ -1,5 +1,8 @@
 *{
-        font-family: comic sans ms;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: comic sans ms;
 }
 body{
     text-align: center;
@@ -9,18 +12,21 @@ body{
 .principal{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 .header{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100px;
     background-color: #260827;
     color: white;
 }
 .leftSidebar{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     min-height: 1070px;
-    min-width: 33.3%;
+    min-width: 17.5%;
     background-color: #800020;
     color: white;
 }
@@ -28,21 +34,23 @@ body{
     display: flex;
     justify-content: center;
     min-height: 1070px;
-    min-width: 33.3%;
+    min-width: 65%;
     background-color: #55E2E9;
     color: white;
 }
 .rightSidebar{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     min-height: 1070px;
-    min-width: 33.3%;
+    min-width: 17.5%;
     background-color: #E56717;
     color: white;
 }
 .footer{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100px;
     background-color: #b00b69;
     color: white;
 }
