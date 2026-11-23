@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #260827;
+    color: white;
+    font-family: comic sans ms;
+}
+.leftSidebar{
+    font-size: 10px;
+    margin-right: 90%;
+    border: 3px solid grey;
+    display: flex;
+}
+.mainContent{
+    font-size: 15px;
+    margin: 0 10% 0 10%;
+    border: 3px solid grey;
+    display: flex;
+    justify-content: center;
+}
+.rightSidebar{
+    font-size: 10px;
+    margin-left: 90%;
+    border: 3px solid grey;
+    display: flex;
+    justify-content: right;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
