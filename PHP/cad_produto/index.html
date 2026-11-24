@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cad. Produto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="formulario">
+        <form  method="post" action="php/produtos.php">
+            <h1>Cadastro de Produto</h1>
+            <h3>Codigo Produto</h3> 
+            <input type="number" class="cad" name="cod_produto">
+            <h3>Descrição Produto</h3>
+            <input type="text" class="cad" name="desc_produto">
+            <h3>Valor do Produto</h3>
+            <input type="decimal" class="cad" name="val_produto">
+            <h3>Quantidade do Produto</h3>
+            <input type="number" class="cad" name="qtd_produto">
+            <br><br>
+            <input type="submit" value="Cadastrar Produto" class="cadastro" >
+        </form>
+        <br>    
+        <a href="php/ler.php">
+            <button class="cad">guten</button>
+        </a>
+        </form>
+    </div>
+</body>
+</html>

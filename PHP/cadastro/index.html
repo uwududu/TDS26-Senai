@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="formulario">
+        <form action="php/index.php" method="post">
+            <h1>Cadastro de algo</h1>
+            <h3>escolha</h3>
+            <select class="cad" name="meme">
+                <option>ronaldo</option>
+                <option>el pepe</option>
+                <option>os dois ne?</option>
+            </select>
+            <h3>email da sua avó</h3>
+            <input type="email" class="cad" name="email">
+            <h3>endereço completo</h3>
+            <input type="text" class="cad" name="endereco">
+            <h3>horario que ninguem esta em casa</h3>
+            <input type="datetime-local" class="cad" name="horas">
+            <h3>lugar onde guarda objetos de valor</h3>
+            <input type="text" class="cad" name="objeto">
+            <h3>sua casa possui segurança?</h3>
+            <input type="radio" name="seguranca" value="sim">Sim
+            <input type="radio" name="seguranca" value="nao">Não
+            <h3>você tem cão de guarda/cachorro?</h3>
+            <input type="radio" name="cachorro" value="sim">Sim
+            <input type="radio" name="cachorro" value="nao">Não
+            <h3>tem algum tipo de arma na sua casa?</h3>
+            <input type="radio" name="arma" value="sim">Sim
+            <input type="radio" name="arma" value="nao">Não
+            <br><br>
+            <input type="submit" value="Registrar venda" class="cadastro" >
+        </form>
+        <br>
+        <a href="php/ler.php">
+            <button class="cad" >oi</button>
+        </a>
+    </div>
+</body>
+</html>

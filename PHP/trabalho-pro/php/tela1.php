@@ -13,9 +13,12 @@ $complemento = $_POST['complemento'];
 
 
 $linha = date('d/m/Y H:i:s') . " | Modelo: " . $modelo . " | Cor: " . $cor . " | Pagamento " . $pagamento . " | Nome do Cliente: " . $nm_cliente . " | Telefone: " . $tel . " | CPF/CNPJ: " . $CPF_CNPJ . 
-" | Rua do Cliente: ". $rua . " | Bairro do Cliente: " . $bairro . " | Complemento: " . $complemento . PHP_EOL;
+" | Rua do Cliente: ". $rua . " | Bairro do Cliente: " . $bairro . " | Complemento: " . $complemento;
 
 file_put_contents('telas_todas.txt', $linha, FILE_APPEND);
 
 header('Location: ../tela2.html');
 exit;
+
+
+
